@@ -137,7 +137,7 @@ Hover over charts for detailed tooltips and drill-through data
 [Shalini Saha]
 Data Analyst | Power BI | Excel | SQL
 💬 Passionate about transforming raw HR data into meaningful workforce insights
-🔗 LinkedIn | GitHub
+🔗 [LinkedIn](https://www.linkedin.com/in/shalini-saha-b127b428b/) | [GitHub](https://github.com/ShaliniSaha97/)
 
 
 ⭐ If you found this project helpful or interesting, please consider starring the repository!
