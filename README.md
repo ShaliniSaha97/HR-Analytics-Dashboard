@@ -1,7 +1,7 @@
 # 💼 HR Analytics Dashboard — Power BI
-A professional, multi-page HR Analytics Dashboard built in Microsoft Power BI to visualize
-workforce data, analyze salary trends, monitor employee tenure, and derive actionable HR
-insights
+
+> A professional, multi-page **HR Analytics Dashboard** built in **Microsoft Power BI** to visualize workforce data, analyze salary trends, monitor employee tenure, and derive actionable HR insights.
+
 
 ---
 
@@ -192,43 +192,53 @@ The dataset contains the following key columns:
 
 ```
 📦 HR-Analytics-Dashboard-PowerBI
- ┣ 📊 HR .pbix                         → Main Power BI dashboard file
- ┣ 🖼️ Screenshot_Overview.png         → Page 1 dashboard screenshot
- ┣ 🖼️ Screenshot_SalaryAnalysis.png   → Page 2 dashboard screenshot
- ┗ 📄 README.md                        → Project documentation (this file)
+ ┣ 📊 HR_Analytics_Dashboard.pbix                         → Main Power BI dashboard file
+ ┣ 🖼️ HR Analytics Dashboard - Overview_Overview.png      → Page 1 dashboard screenshot
+ ┣ 🖼️ Salary & Workforce Analysis.png                     → Page 2 dashboard screenshot
+ ┗ 📄 README.md                                           → Project documentation (this file)
 ```
 
-🚀 How to Use
+---
 
-Clone or download this repository
+## 🚀 How to Use
 
-bash   git clone https://github.com/your-username/HR-Analytics-Dashboard-PowerBI.git
+1. **Clone or download** this repository
+   ```bash
+   git clone https://github.com/your-username/HR-Analytics-Dashboard-PowerBI.git
+   ```
 
-Open the HR.pbix file in Power BI Desktop
+2. **Open** the `HR_Analytics_Dashboard.pbix ` file in **Power BI Desktop**
+   - Download Power BI Desktop free at: [powerbi.microsoft.com](https://powerbi.microsoft.com/desktop)
 
-Download Power BI Desktop free at: powerbi.microsoft.com
+3. **Explore Page 1** — Use the slicers on the left to filter by:
+   - Year of Join
+   - Job Title
+   - Education Qualification
+   - Age Group
+
+4. **Navigate to Page 2** — Click the "Page 2" tab at the bottom for salary and gender analysis
+
+5. **Hover over charts** for detailed tooltips and drill-through data
+
+---
 
 
-Explore Page 1 — Use the slicers on the left to filter by:
-
-Year of Join
-Job Title
-Education Qualification
-Age Group
 
 
-Navigate to Page 2 — Click the "Page 2" tab at the bottom for salary and gender analysis
-Hover over charts for detailed tooltips and drill-through data
+## 👩‍💻 About the Author
 
+**Shalini Saha**  
+*Data Analyst | Power BI | Excel | SQL*
 
-👩‍💻 About the Author
-[Shalini Saha]
-Data Analyst | Power BI | Excel | SQL
-💬 Passionate about transforming raw HR data into meaningful workforce insights
+💬 Passionate about transforming raw HR data into meaningful workforce insights  
 🔗 [LinkedIn](https://www.linkedin.com/in/shalini-saha-b127b428b/) | [GitHub](https://github.com/ShaliniSaha97/)
 
 
-⭐ If you found this project helpful or interesting, please consider starring the repository!
-📬 Feel free to open an issue or reach out for feedback, collaboration, or questions.
+---
+
+> ⭐ *If you found this project helpful or interesting, please consider starring the repository!*
+>
+> 📬 *Feel free to open an issue or reach out for feedback, collaboration, or questions.*
+
 
 
