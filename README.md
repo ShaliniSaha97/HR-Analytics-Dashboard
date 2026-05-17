@@ -8,9 +8,8 @@ insights
 ## 🖥️ Dashboard Preview
 
 
-Page 1 — HR Analytics Overview
-
-<img width="1326" height="780" alt="Screenshot 2026-05-13 045125" src="https://github.com/user-attachments/assets/48e54701-f6ca-4a3d-9ffc-ea86dea2fb03" />
+### Page 1 — HR Analytics Overview
+<img width="1326" height="780" alt="HR overview png" src="https://github.com/user-attachments/assets/0f1d54f1-f7fc-496c-9a15-e7af34e1a1dc" />
 
 
 
@@ -189,13 +188,13 @@ The dataset contains the following key columns:
 
 ## 📁 Project Files
 
-
-📁 Project Files
+```
 📦 HR-Analytics-Dashboard-PowerBI
  ┣ 📊 HR.pbix                         → Main Power BI dashboard file
  ┣ 🖼️ Screenshot_Overview.png         → Page 1 dashboard screenshot
  ┣ 🖼️ Screenshot_SalaryAnalysis.png   → Page 2 dashboard screenshot
  ┗ 📄 README.md                        → Project documentation (this file)
+```
 
 🚀 How to Use
 
