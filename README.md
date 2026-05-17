@@ -192,9 +192,10 @@ The dataset contains the following key columns:
 
 ```
 📦 HR-Analytics-Dashboard-PowerBI
+
  ┣ 📊 HR_Analytics_Dashboard.pbix                         → Main Power BI dashboard file
- ┣ 🖼️ HR Analytics Dashboard - Overview_Overview.png      → Page 1 dashboard screenshot
- ┣ 🖼️ Salary & Workforce Analysis.png                     → Page 2 dashboard screenshot
+ ┣ 🖼️ hr-overview.png                                     → Page 1 dashboard screenshot
+ ┣ 🖼️ hr-salary.png                                        → Page 2 dashboard screenshot
  ┗ 📄 README.md                                           → Project documentation (this file)
 ```
 
