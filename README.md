@@ -9,13 +9,15 @@ insights
 
 
 ### Page 1 — HR Analytics Overview
-<img width="1326" height="780" alt="HR overview png" src="https://github.com/user-attachments/assets/0f1d54f1-f7fc-496c-9a15-e7af34e1a1dc" />
+
+<img width="1326" height="780" alt="HR Analytics Dashboard - Overview" src="https://github.com/user-attachments/assets/7d6ad598-0b28-4a1f-b135-8e58521e5fc7" />
 
 
 
-Page 2 — Salary & Workforce Analysis
+### Page 2 — Salary & Workforce Analysis
 
-<img width="1321" height="781" alt="Screenshot 2026-05-13 045156" src="https://github.com/user-attachments/assets/1f6b7be8-733a-4630-b837-e44a7f82d5e9" />
+<img width="1321" height="781" alt="Salary Workforce Analysis" src="https://github.com/user-attachments/assets/38c9d4de-7c53-452a-b99d-31c33cc471fa" />
+
 
 ---
 
@@ -190,7 +192,7 @@ The dataset contains the following key columns:
 
 ```
 📦 HR-Analytics-Dashboard-PowerBI
- ┣ 📊 HR.pbix                         → Main Power BI dashboard file
+ ┣ 📊 HR .pbix                         → Main Power BI dashboard file
  ┣ 🖼️ Screenshot_Overview.png         → Page 1 dashboard screenshot
  ┣ 🖼️ Screenshot_SalaryAnalysis.png   → Page 2 dashboard screenshot
  ┗ 📄 README.md                        → Project documentation (this file)
