@@ -61,28 +61,77 @@ The dashboard is structured across **two pages,** each serving a distinct analyt
 
 ---
 
-📂 **Dashboard Pages**
+## 📂 Dashboard Pages
 
-🔷 **Page 1 — HR Analytics Overview**
+### 🔷 Page 1 — HR Analytics Overview
 
 The main operational dashboard featuring:
-VisualDescriptionKPI CardsTotal Employees, Avg Salary, Avg Age, Avg Tenure, Total Leave BalanceAvg Salary by Job TitleHorizontal bar chart ranking roles from highest to lowest payJoining Trend by MonthLine chart tracking monthly hiring activity across the yearTenure AnalysisBar chart showing employee count distribution across tenure yearsEmployees by Age GroupTreemap segmenting the workforce into age brackets (26–30, 31–35, 36–40, 41+)Education Qualification DistributionBar chart showing Bachelor's, High School, Diploma, and Master's holdersGender Donut ChartVisual split: 88 Male (54%) vs 73 Female (46%)SlicersFilter by Year of Join, Job Title, Education Qualification, Age Group
+
+| Visual | Description |
+|--------|-------------|
+| **KPI Cards** | Total Employees, Avg Salary, Avg Age, Avg Tenure, Total Leave Balance |
+| **Avg Salary by Job Title** | Horizontal bar chart ranking roles from highest to lowest pay |
+| **Joining Trend by Month** | Line chart tracking monthly hiring activity across the year |
+| **Tenure Analysis** | Bar chart showing employee count distribution across tenure years |
+| **Employees by Age Group** | Treemap segmenting the workforce into age brackets (26–30, 31–35, 36–40, 41+) |
+| **Education Qualification Distribution** | Bar chart showing Bachelor's, High School, Diploma, and Master's holders |
+| **Gender Donut Chart** | Visual split: 88 Male (54%) vs 73 Female (46%) |
+| **Slicers** | Filter by Year of Join, Job Title, Education Qualification, Age Group |
 
 ---
 
-🔶 **Page 2 — Salary & Workforce Analysis**
+### 🔶 Page 2 — Salary & Workforce Analysis
 
 A deeper analytical view with gender-based comparisons:
-VisualDescriptionGender-wise Salary TableCross-tab of Female vs Male avg salary for each job titleSum of Leave Balance by GenderBar chart — Female: 1,395 vs Male: 1,248Avg Salary by Employee TenureColumn chart showing salary progression from 3 to 9 years of tenureKey Insights PanelAuto-generated text summary of key findingsRecommendations PanelActionable HR strategy suggestions
 
-📊 **Key Metrics & KPIs**
-MetricValueTotal Employees161Average Salary₹54,231Average Age35 yearsAverage Tenure6 yearsTotal Leave Balance3,000Male Employees88 (54.7%)Female Employees73 (45.3%)
-Salary by Job Title (Top 5)
-Job TitleAvg SalaryProduct Manager₹82,825Research Scientist₹77,567Marketing Manager₹73,530Marketing Specialist₹62,170Research Analyst₹57,813
-**Salary Growth by Tenure**
-Tenure (Years)Avg Salary3₹49K4₹45K5₹52K6₹55K7₹55K8₹61K9₹73K
+| Visual | Description |
+|--------|-------------|
+| **Gender-wise Salary Table** | Cross-tab of Female vs Male avg salary for each job title |
+| **Sum of Leave Balance by Gender** | Bar chart — Female: 1,395 vs Male: 1,248 |
+| **Avg Salary by Employee Tenure** | Column chart showing salary progression from 3 to 9 years of tenure |
+| **Key Insights Panel** | Auto-generated text summary of key findings |
+| **Recommendations Panel** | Actionable HR strategy suggestions |
 
-💡 **Key Insights**
+---
+
+## 📊 Key Metrics & KPIs
+
+| Metric | Value |
+|--------|-------|
+| Total Employees | **161** |
+| Average Salary | **₹54,231** |
+| Average Age | **35 years** |
+| Average Tenure | **6 years** |
+| Total Leave Balance | **3,000** |
+| Male Employees | **88 (54.7%)** |
+| Female Employees | **73 (45.3%)** |
+
+### Salary by Job Title (Top 5)
+
+| Job Title | Avg Salary |
+|-----------|-----------|
+| Product Manager | ₹82,825 |
+| Research Scientist | ₹77,567 |
+| Marketing Manager | ₹73,530 |
+| Marketing Specialist | ₹62,170 |
+| Research Analyst | ₹57,813 |
+
+### Salary Growth by Tenure
+
+| Tenure (Years) | Avg Salary |
+|----------------|------------|
+| 3 | ₹49K |
+| 4 | ₹45K |
+| 5 | ₹52K |
+| 6 | ₹55K |
+| 7 | ₹55K |
+| 8 | ₹61K |
+| 9 | ₹73K |
+
+---
+
+## 💡 Key Insights
+
 From the **Key Insights** panel on Page 2:
 
 - 🎂 **Highest employee concentration** is in the **31–35 age group**
@@ -96,21 +145,50 @@ From the **Key Insights** panel on Page 2:
 
 ---
 
-✅ **Recommendations**
+## ✅ Recommendations
+
 From the **Recommendations** panel on Page 2:
 
-- 1. 🔒 **Focus on retention after 8+ years of tenure** — introduce long-service rewards or growth paths
-- 2. 📅 **Maintain hiring momentum in Q1 & Q4** — optimize recruitment cycles around peak months
-- 3. 🎓 **Encourage higher education upskilling programs** — subsidize Master's-level education to raise workforce capability
+1. 🔒 **Focus on retention after 8+ years of tenure** — introduce long-service rewards or growth paths
+2. 📅 **Maintain hiring momentum in Q1 & Q4** — optimize recruitment cycles around peak months
+3. 🎓 **Encourage higher education upskilling programs** — subsidize Master's-level education to raise workforce capability
 
 ---
 
-🛠️ Tools & Skills Used
-Tool / SkillUsageMicrosoft Power BI DesktopDashboard design and report buildingPower QueryData cleaning and transformationDAX (Data Analysis Expressions)KPI calculations (Avg Salary, Avg Age, Avg Tenure)Data ModelingRelationships between tablesHR AnalyticsDomain knowledge for meaningful KPI selectionData VisualizationChart selection, layout, and color design
+## 🛠️ Tools & Skills Used
 
-🗃️ Data Fields
+| Tool / Skill | Usage |
+|-------------|-------|
+| **Microsoft Power BI Desktop** | Dashboard design and report building |
+| **Power Query** | Data cleaning and transformation |
+| **DAX (Data Analysis Expressions)** | KPI calculations (Avg Salary, Avg Age, Avg Tenure) |
+| **Data Modeling** | Relationships between tables |
+| **HR Analytics** | Domain knowledge for meaningful KPI selection |
+| **Data Visualization** | Chart selection, layout, and color design |
+
+---
+
+## 🗃️ Data Fields
+
 The dataset contains the following key columns:
-FieldDescriptionEmployee_IDUnique identifier for each employeeGenderMale / FemaleAgeEmployee age (used to derive Age Group)Job_TitleRole/designation of the employeeSalaryAnnual salaryTenureYears with the companyEducationHighest qualification (Bachelor's, Master's, Diploma, High School)Leave_BalanceRemaining leave daysJoin_MonthMonth of joining the companyYear_of_JoinYear of joining
+
+| Field | Description |
+|-------|-------------|
+| `Employee_ID` | Unique identifier for each employee |
+| `Gender` | Male / Female |
+| `Age` | Employee age (used to derive Age Group) |
+| `Job_Title` | Role/designation of the employee |
+| `Salary` | Annual salary |
+| `Tenure` | Years with the company |
+| `Education` | Highest qualification (Bachelor's, Master's, Diploma, High School) |
+| `Leave_Balance` | Remaining leave days |
+| `Join_Month` | Month of joining the company |
+| `Year_of_Join` | Year of joining |
+
+---
+
+## 📁 Project Files
+
 
 📁 Project Files
 📦 HR-Analytics-Dashboard-PowerBI
