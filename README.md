@@ -195,7 +195,7 @@ The dataset contains the following key columns:
 
  ┣ 📊 HR_Analytics_Dashboard.pbix                         → Main Power BI dashboard file
  ┣ 🖼️ hr-overview.png                                     → Page 1 dashboard screenshot
- ┣ 🖼️ hr-salary.png                                        → Page 2 dashboard screenshot
+ ┣ 🖼️ hr-salary.png                                       → Page 2 dashboard screenshot
  ┗ 📄 README.md                                           → Project documentation (this file)
 ```
 
